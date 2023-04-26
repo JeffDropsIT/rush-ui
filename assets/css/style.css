@@ -953,8 +953,8 @@ Ather form Pages
 #parcel-form.assets {
     box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0);
 }
-#parcel-form .dipe {
-    color: rgba(255, 255, 255, 80%);
+#parcel-form a.dipe {
+    color: rgba(240, 184, 184, 0.8);
 }
 #parcel-form select {
     width: 100%;
@@ -1040,13 +1040,21 @@ Register Form Page
     padding: 12px 42px;
     background: var(--focus-color);
 }
-.reg-btn a:hover {
+.reg-btn a:hover,
+.as a:hover {
     box-shadow: 0px 3px 14px 0px rgba(255, 82, 82, 0.45);
     color: var(--focus-color);
     background: var(--prime-color);
 }
-.reg-btn.as a {
-    padding: 9px 42px;
+.as a {
+    padding: 7px 42px;
+    color: var(--prime-color);
+    font-size: 18px;
+    border: 1px solid var(--focus-color);
+    border-radius: 8px;
+    transition: var(--first-transition);
+    background: var(--focus-color);
+    display: block;
 }
 
 /* =================
@@ -1061,16 +1069,16 @@ FAQ Page CSS
     font-weight: 700;
     padding-bottom: 40px;
 }
-#faq .faq-container {
+#faq.privacy .faq-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
 }
-#faq .faq-container .faq-item {
+#faq.privacy .faq-container .faq-item {
     border: 1px solid rgba(148, 157, 175, 35%);
     border-radius: 5px;
 }
-#faq .faq-item .faq-title {
+#faq.privacy .faq-item .faq-title {
     background-color: rgba(148, 157, 175, 15%);
     color: #535353;
     display: flex;
@@ -1079,14 +1087,14 @@ FAQ Page CSS
     padding: 10px 15px;
     gap: 8px;
 }
-#faq .faq-item .faq-title h3 {
+#faq.privacy .faq-item .faq-title h3 {
     font-size: 18px;
     font-weight: 500;
 }
-#faq .faq-item .faq-content p {
+#faq.privacy .faq-item .faq-content p {
     font-size: 15px;
     font-weight: 300;
-    color: var(--secondary-font-color);
+    color: #464646;
     padding: 10px 15px;
 }
 /* =================
@@ -1384,4 +1392,45 @@ Contact Page CSS
 }
 .contact-details .con-num a:hover {
     color: var(--focus-color);
+}
+/* =================
+Terms & Conditions Page CSS
+==================== */
+#faq.tac .faq-container {
+    grid-template-columns: 1fr;
+}
+#faq.tac .faq-content p {
+    color: #3d3d3d;
+    line-height: 35px;
+}
+
+.accordion {
+    border: 1px solid rgba(148, 157, 175, 35%) !important;
+    margin-bottom: 14px;
+    background: rgba(148, 157, 175, 15%);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+}
+
+.active,
+.accordion:hover {
+    background-color: var(--focus-color);
+    color: var(--prime-color);
+}
+
+.panel {
+    border: 1px solid rgba(148, 157, 175, 35%) !important;
+    padding: 15px 18px;
+    margin-top: -14px;
+    margin-bottom: 14px !important;
+    display: none;
+    background-color: white;
+    overflow: hidden;
 }

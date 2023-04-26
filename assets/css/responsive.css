@@ -1141,15 +1141,13 @@
     #parcel-form .form-heading a {
         font-size: 10px;
         padding: 10px 0;
-        color: var(--focus-color);
+        color: var(--prime-color);
+        background-color: var(--focus-color);
         transition: var(--first-transition);
     }
-    #parcel-form.assets .dipe {
-        color: rgba(217, 31, 38, 60%);
-    }
-    #parcel-form .form-heading a:hover {
-        background: var(--focus-color);
-        color: #fff;
+    #parcel-form a.dipe {
+        color: var(--focus-color);
+        background-color: transparent;
     }
     #parcel-form .form-heading .ab {
         border-right: 2px solid var(--focus-color);
