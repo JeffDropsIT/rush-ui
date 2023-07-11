@@ -5,18 +5,21 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        <!--==================================================================-->
+        <!-- Fav-Icon Image -->
         <link
             rel="shortcut icon"
-            href="assets/images/favicone.png"
+            href="assets/images/fevicone.png"
             type="image/x-icon"
         />
-
         <!-- Font Awesome CDN Link -->
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         />
-        <!-- Style File -->
+        <!-- Slick Slider CSS CDN -->
+        <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+        <!-- Custom CSS File -->
         <link rel="stylesheet" href="assets/css/style.css" />
         <!-- Responsive CSS File -->
         <link rel="stylesheet" href="assets/css/responsive.css" />
@@ -24,74 +27,56 @@
         <title>Rush- Privacy Policy</title>
     </head>
     <body>
-        <!-- Header Section Start -->
-        <header class="extra-nav">
-            <!-- Mobile Nav -->
-            <section id="mobile-nav">
-                <div class="mob-con">
-                    <div class="mob-logo">
-                        <a href="index.html"
-                            ><img src="assets/images/logo.png" alt=""
-                        /></a>
-                    </div>
-                    <div>
-                        <button class="btn">
-                            <a href="login.html">Sign In</a>
-                        </button>
-                        <button class="btn">
-                            <a href="register.html">Register</a>
-                        </button>
-                        <button class="toggol">
-                            <i class="fa-solid fa-bars"></i>
-                            <i class="fa-solid fa-xmark"></i>
-                        </button>
-                    </div>
+    <!-- Header Section Start -->
+    <header>
+        <div class="nav_bar">
+            <a class="logo" href="index.html">
+                <img src="assets/images/logo-red.png" alt="" />
+            </a>
+
+            <ul>
+                <li class="d_none">
+                    <a href="index.html">Rush Business</a>
+                </li>
+                <li class="d_none">
+                    <a href="e_commerce.html">Rush E-commerce</a>
+                </li>
+                <li class="d_none">
+                    <a href="track_parcel.html">Track Parcel</a>
+                </li>
+
+                <div class="nav_btn common_btn d_none">
+                    <button><a href="sign_in.html">Sign in</a></button>
+                    <button><a href="register.html">Register</a></button>
                 </div>
-                <div class="nav-bar">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html">Rush Business</a></li>
-                        <li><a href="e-commerce.html">Rush E-commerce</a></li>
-                        <li><a href="">Track Parcel</a></li>
-                        <li><a href="faq.html">FAQ's</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="e-commerce.html">eCommerce</a></li>
-                    </ul>
+                <li>
+                    <a href="#"><i class="fa-solid fa-bars on_click"></i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- Side Nav -->
+        <div class="side_nav">
+            <ul>
+                <li>
+                <li>
+                    <a href="index.html">Rush Business</a>
+                </li>
+                <li>
+                    <a href="e_commerce.html">Rush E-commerce</a>
+                </li>
+                <li>
+                    <a href="track_parcel.html">Track Parcel</a>
+                </li>
+                </li>
+
+                <div class="common_btn">
+                    <button><a href="sign_in.html">Sign in</a></button>
+                    <button><a href="register.html">Register</a></button>
                 </div>
-            </section>
-            <div class="container">
-                <!-- Navbar Section -->
-                <nav>
-                    <div class="logo">
-                        <a href="index.html"
-                            ><img src="assets/images/logo.png" alt=""
-                        /></a>
-                    </div>
-                    <div class="menu">
-                        <ul>
-                            <li><a href="index.html">Rush Business</a></li>
-                            <li>
-                                <a href="e-commerce.html">Rush E-commerce</a>
-                            </li>
-                            <li><a href="#">Track Parcel</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <button class="btn-1">
-                            <a
-                                href="login.html
-                        "
-                                >Sign In</a
-                            >
-                        </button>
-                        <button class="btn-2">
-                            <a href="register.html">Register</a>
-                        </button>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <!-- ||Header Section End|| -->
+            </ul>
+        </div>
+    </header>
+    <!-- ||Header Section End|| -->
 
         <!-- faq Section Start -->
         <section id="faq" class="privacy">
@@ -212,106 +197,127 @@
         <!-- ||faq Section End|| -->
 
         <!-- Footer Section Start -->
+        <!-- Footer Section Start -->
         <footer>
             <div class="container">
-                <div class="footer-logo">
-                    <a href="index.html">
-                        <img src="assets/images/logo.png" alt="" />
-                    </a>
+                <div class="footer_logo">
+                    <a href="index.html"
+                        ><img src="assets/images/logo.png" alt=""
+                    /></a>
                 </div>
-                <div class="footer-container">
-                    <div class="footer-item">
-                        <h5>Sitemap</h5>
-                        <div class="footer-menu">
+                <div class="footer_container">
+                    <div class="footer_content">
+                        <h4>Company</h4>
+                        <div class="footer_navigation">
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="login.html">Sign in</a></li>
+                                <li><a href="sign_in.html">Sign In</a></li>
                                 <li><a href="register.html">Register</a></li>
-                                <li><a href="#">My Profile</a></li>
-                                <li>
-                                    <a href="services-domestic-1.html"
-                                        >New Order
-                                    </a>
-                                </li>
+                                <li><a href="profile.html">My Profile</a></li>
+                                <li><a href="new_order.html">New Order</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#">Track Parcel</a></li>
+                                <li><a href="track_parcel.html">Track Parcel</a></li>
                                 <li><a href="contact.html">Contact Us</a></li>
                                 <li><a href="index.html">Rush Business</a></li>
                                 <li>
-                                    <a href="e-commerce.html">Rush Ecommerce</a>
+                                    <a href="e_commerce.html">Rush Ecommerce</a>
                                 </li>
-                                <li><a href="#">Packing Guidelines</a></li>
+                                <li><a href="">Packing Guidelines</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#">International Shipping</a></li>
+                                <li>
+                                    <a href="">International Shipping</a>
+                                </li>
                                 <li><a href="faq.html">FAQ</a></li>
                                 <li><a href="news.html">News</a></li>
-                                <li>
-                                    <a href="privacy.html">Privacy Policy</a>
-                                </li>
+                                <li><a href="total.html">Basket</a></li>
                                 <li>
                                     <a href="terms.html">Terms & Conditions</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="footer-item item-center">
-                        <h5>Company Details</h5>
-                        <div class="concern">
-                            <p>Operating hours for customer service</p>
-                            <p>Monday to Friday 08:00AM - 05:00PM</p>
-                        </div>
-                        <div class="contact">
-                            <div class="con-item">
-                                <i class="fa-solid fa-envelope"></i>
-                                <a href="mailto: support@rush.co.za"
-                                    >support@rush.co.za</a
+                    <div class="footer_content">
+                        <h4>Company Details</h4>
+                        <ul>
+                            <li>
+                                <a href=""
+                                    >Operating hours for customer service<br />
+                                    Monday to Friday 08:00AM - 05:00PM</a
                                 >
-                            </div>
-                            <div class="con-item">
-                                <i class="fa-solid fa-phone-volume"></i>
-                                <a href="tel:0104440002">010 444 0002</a>
-                            </div>
-                            <div class="con-item">
-                                <i class="fa-solid fa-phone-volume"></i>
-                                <a href="tel:087 057 3900">087 057 3900</a>
-                            </div>
+                            </li>
+                        </ul>
+                        <div class="support">
+                            <a href="mailto: support@rush.co.za"
+                                ><i class="fa-solid fa-envelope"></i>
+                                support@rush.co.za</a
+                            >
+                            <a href="tel:010 444 0002"
+                                ><i class="fa-solid fa-phone-volume"></i> 010
+                                444 0002</a
+                            >
+                            <a href="tel:087 057 3900"
+                                ><i class="fa-solid fa-phone-volume"></i>
+
+                                087 057 3900</a
+                            >
                         </div>
-                        <div class="social">
-                            <a href="https://www.facebook.com/"
+                        <div class="social_media">
+                            <a href=""
                                 ><i class="fa-brands fa-facebook-f"></i
                             ></a>
-                            <a href="https://twitter.com/?lang=en"
-                                ><i class="fa-brands fa-twitter"></i
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""
+                                ><i class="fa-brands fa-linkedin-in"></i
                             ></a>
                         </div>
                     </div>
-                    <div class="footer-item item-center">
-                        <h5>Newsletter</h5>
-                        <div class="concern">
-                            <p>Please subscribe to our newsletter</p>
-                        </div>
 
-                        <form class="input-fild">
-                            <input type="email" class="email" /><input
+                    <div class="footer_content">
+                        <h4>Newsletter</h4>
+                        <p>Please subscribe to our newsletter</p>
+
+                        <form class="input_fild">
+                            <input
+                                type="email"
+                                class="email"
+                                placeholder="Email Address"
+                            />
+                            <input
                                 type="submit"
-                                value="Submit"
+                                value="Subscribe"
                                 class="submit"
                             />
                         </form>
+
+                        <div class="payment">
+                            <a href=""
+                                ><img src="assets/images/visa.png" alt=""
+                            /></a>
+                            <a href=""
+                                ><img
+                                    src="assets/images/mastercard-4.png"
+                                    alt=""
+                            /></a>
+                            <a href=""
+                                ><img src="assets/images/paypal-2.png" alt=""
+                            /></a>
+                        </div>
                     </div>
                 </div>
+                <div class="border_line"></div>
             </div>
         </footer>
+        <!-- ||Footer Section End|| -->
         <!-- ||Footer Section End|| -->
 
         <!-- jQury Section Start -->
         <!--=========================================================-->
         <!--jQury main file-->
-        <script src="assets/js/jquery-1.12.4.min.js"></script>
+        <script src="../assets/js/jquery-1.12.4.min.js"></script>
         <!--custom jQury file-->
-        <script src="assets/js/app.js"></script>
+        <script src="../assets/js/app.js"></script>
         <!--=========================================================-->
         <!-- ||jQury Section End|| -->
     </body>

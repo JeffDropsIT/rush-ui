@@ -17,13 +17,14 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         />
+        <!-- Slick Slider CSS CDN -->
+        <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
         <!-- Custom CSS File -->
         <link rel="stylesheet" href="assets/css/style.css" />
         <!-- Responsive CSS File -->
         <link rel="stylesheet" href="assets/css/responsive.css" />
-        <!--==================================================================-->
 
-        <title>RUSH 2.0- Track Parcel</title>
+        <title>Rush- Service-(Domestic)</title>
     </head>
     <body>
         <!-- Header Section Start -->
@@ -57,15 +58,15 @@
             <div class="side_nav">
                 <ul>
                     <li>
-                        <li>
-                            <a href="index.html">Rush Business</a>
-                        </li>
-                        <li>
-                            <a href="e_commerce.html">Rush E-commerce</a>
-                        </li>
-                        <li>
-                            <a href="track_parcel.html">Track Parcel</a>
-                        </li>
+                    <li>
+                        <a href="index.html">Rush Business</a>
+                    </li>
+                    <li>
+                        <a href="e_commerce.html">Rush E-commerce</a>
+                    </li>
+                    <li>
+                        <a href="track_parcel.html">Track Parcel</a>
+                    </li>
                     </li>
 
                     <div class="common_btn">
@@ -77,34 +78,93 @@
         </header>
         <!-- ||Header Section End|| -->
 
-        <!-- Track Parcel Section Start -->
-        <section id="summary">
+
+        <!-- Service branding Section Start -->
+        <section id="service-branding">
             <div class="container">
-                <form class="malty_form">
-                    <div class="profile_header">
-                        <h2>Track your parcel</h2>
+                <div class="branding-con">
+                    <div class="brand-content">
+                        <h5>OUR COURIER PARTNERS</h5>
+                        <img src="../assets/images/service-brand.png" alt="" />
                     </div>
-
-                    <div class="form_data double">
-                        <div class="form_item">
-                            <label for="">Address Line 1</label>
-                            <input type="text" />
-                        </div>
-
-                        <div class="form_item">
-                            <label for="">Address Line 2</label>
-                            <input type="text" />
-                        </div>
-                    </div>
-
-                    <div class="orders_btn text_end">
-                        <a href="parcel_details.html">Track</a>
-                    </div>
-                </form>
+                </div>
+                <div class="service-trak">
+                    <img src="../assets/images/service-trak.png" alt="" />
+                </div>
             </div>
         </section>
-        <!-- ||Summary Section End|| -->
+        <!-- ||Service branding Section End|| -->
 
+        <!-- Parcel Form Section Start -->
+        <section id="parcel-form">
+            <div class="">
+                <div class="form-heading">
+                    <a href="services-domestic-1.html" class="ab">Domestic</a>
+                    <a href="services-international-1.html" class="dipe"
+                        >International</a
+                    >
+                </div>
+                <form class="address-form">
+                    <div>
+                        <label for="">Collect From</label>
+                        <div class="address-input">
+                            <input type="text" placeholder="Town/Suburb" />
+                            <input type="text" placeholder="Postcode" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Deliver to</label>
+                        <div class="address-input">
+                            <input type="text" placeholder="Town/Suburb" />
+                            <input type="text" placeholder="Postcode" />
+                        </div>
+                    </div>
+                </form>
+                <div class="placing">
+                    <div class="data">
+                        <button>
+                            <a href="services-domestic-1.html" class="dactv"
+                                >Parcel</a
+                            >
+                        </button>
+                        <button>
+                            <a href="services-domestic-2.html" class="actv"
+                                >Document</a
+                            >
+                        </button>
+                    </div>
+                    <form>
+                        <div>
+                            <label for="">Document</label>
+                            <input type="text" placeholder="A4" />
+                        </div>
+                        <div>
+                            <label for="">Weight (kg)</label>
+                            <input type="text" />
+                        </div>
+                        <div>
+                            <label for="">Items (qty)</label>
+                            <input type="text" />
+                        </div>
+                        <button class="add-btn addd">
+                            <i class="fa-solid fa-circle-plus"></i> Add More
+                        </button>
+                    </form>
+                </div>
+                <div class="text-aria">
+                    <label for="">Item description</label>
+                    <textarea name="" id=""></textarea>
+                    <div class="radio-btn">
+                        <i class="fa-solid fa-square-check"></i>
+                        <p>
+                            Protect your shipment against theft, loss or Damage.
+                        </p>
+                    </div>
+                </div>
+                <button class="add-btn">GET AN INSTANT QUOTE</button>
+            </div>
+        </section>
+        <!-- ||Parcel Form Section End|| -->
         <!-- Footer Section Start -->
         <footer>
             <div class="container">
@@ -222,12 +282,9 @@
         <!-- jQury Section Start -->
         <!--=========================================================-->
         <!--jQury main file-->
-        <script
-            type="text/javascript"
-            src="assets/js/jquery-1.12.4.min.js"
-        ></script>
+        <script src="../assets/js/jquery-1.12.4.min.js"></script>
         <!--custom jQury file-->
-        <script type="text/javascript" src="assets/js/app.js"></script>
+        <script src="../assets/js/app.js"></script>
         <!--=========================================================-->
         <!-- ||jQury Section End|| -->
     </body>
