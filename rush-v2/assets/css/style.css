@@ -403,46 +403,46 @@ Common Content Css End
 /*===================== 
 Sign In Page Css start
 =====================*/
-#sign_in,
+.sign_in,
 #register {
     padding: 100px 0;
 }
-#sign_in .sing_in_container {
+.sign_in .sing_in_container {
     width: 380px;
     overflow: hidden;
     margin: auto;
 }
-#sign_in h2 {
+.sign_in h2 {
     font-size: 35px;
     font-weight: 600;
     color: var(--regular-f-color);
     padding-bottom: 10px;
 }
-#sign_in p {
+.sign_in p {
     font-size: 18px;
     font-weight: 400;
     color: var(--secondary-f-color);
 }
-#sign_in form {
+.sign_in form {
     padding-top: 25px;
     display: grid;
     gap: 20px;
 }
 
-#sign_in form input {
+.sign_in form input {
     width: 91% !important;
 }
 
-#sign_in form .email::placeholder {
+.sign_in form .email::placeholder {
     display: grid;
     align-items: center;
 }
-#sign_in form a {
+.sign_in form a {
     color: var(--focus-color);
     font-size: 20px;
     font-weight: 500;
 }
-#sign_in button a {
+.sign_in button a {
     display: block;
     background: var(--focus-color);
     color: var(--prime-color);
@@ -794,16 +794,16 @@ Express Page Css End
 /*===================== 
 Payment Page Css Start
 =====================*/
-#payment {
+.payment {
     padding: 100px 0;
 }
-#payment h2 {
+.payment h2 {
     font-size: 35px;
     font-weight: 600;
     color: var(--regular-f-color);
     padding-bottom: 40px;
 }
-#payment .payment_form {
+.payment .payment_form {
     padding: 50px 40px;
     max-width: 500px;
     box-shadow: 0px 0px 32px -23px rgba(0, 0, 0, 0.5);
@@ -812,7 +812,7 @@ Payment Page Css Start
     gap: 20px;
     margin: auto;
 }
-#payment .payment_form input {
+.payment .payment_form input {
     width: 95%;
 }
 .pay_flex {
@@ -839,14 +839,14 @@ Payment Page Css End
 /*===================== 
 Summary Page Css Start
 =====================*/
-#summary {
+.summary {
     padding: 80px 0;
     position: relative;
 }
-#summary .resed {
+.summary .resed {
     margin: 30px 0;
 }
-#summary .search_address {
+.summary .search_address {
     justify-content: space-between;
 }
 .outer_p {
@@ -1772,25 +1772,25 @@ Register Form Page
 /* =================
 FAQ Page CSS
 ==================== */
-#faq {
+.faq {
     padding: 50px 70px;
 }
-#faq .faq-heading h2 {
+.faq .faq-heading h2 {
     text-align: center;
     font-size: 25px;
     font-weight: 700;
     padding-bottom: 40px;
 }
-#faq.privacy .faq-container {
+.faq.privacy .faq-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
 }
-#faq.privacy .faq-container .faq-item {
+.faq.privacy .faq-container .faq-item {
     border: 1px solid rgba(148, 157, 175, 35%);
     border-radius: 5px;
 }
-#faq.privacy .faq-item .faq-title {
+.faq.privacy .faq-item .faq-title {
     background-color: rgba(148, 157, 175, 15%);
     color: #535353;
     display: flex;
@@ -1799,11 +1799,11 @@ FAQ Page CSS
     padding: 10px 15px;
     gap: 8px;
 }
-#faq.privacy .faq-item .faq-title h3 {
+.faq.privacy .faq-item .faq-title h3 {
     font-size: 18px;
     font-weight: 500;
 }
-#faq.privacy .faq-item .faq-content p {
+.faq.privacy .faq-item .faq-content p {
     font-size: 15px;
     font-weight: 300;
     color: #464646;
@@ -2028,21 +2028,21 @@ News Page CSS
 /* =================
 Contact Page CSS
 ====================*/
-#contact {
+.contact {
     padding: 100px 300px;
     text-align: center;
 }
-#contact h2 {
+.contact h2 {
     font-size: 35px;
     font-weight: 700;
     padding-bottom: 20px;
 }
-#contact p {
+.contact p {
     font-size: 16px;
     font-weight: 300;
     padding-bottom: 30px;
 }
-#contact .contact-sec {
+.contact .contact-sec {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
@@ -2108,10 +2108,10 @@ Contact Page CSS
 /* =================
 Terms & Conditions Page CSS
 ==================== */
-#faq.tac .faq-container {
+.faq.tac .faq-container {
     grid-template-columns: 1fr;
 }
-#faq.tac .faq-content p {
+.faq.tac .faq-content p {
     color: #3d3d3d;
     line-height: 35px;
 }

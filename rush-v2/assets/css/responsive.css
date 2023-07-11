@@ -171,30 +171,30 @@
     /* ||Footer Responsive Css End|| */
 
     /* Sign in Responsive Css Start */
-    #sign_in,
+    .sign_in,
     #register {
         padding: 50px 0;
     }
-    #sign_in .sing_in_container {
+    .sign_in .sing_in_container {
         width: 100%;
     }
-    #sign_in form {
+    .sign_in form {
         padding-top: 15px;
         gap: 10px;
     }
-    #sign_in h2 {
+    .sign_in h2 {
         font-size: 28px;
     }
-    #sign_in p {
+    .sign_in p {
         font-size: 16px;
     }
-    #sign_in form input {
+    .sign_in form input {
         width: 92% !important;
     }
-    #sign_in form a {
+    .sign_in form a {
         font-size: 16px;
     }
-    #sign_in button a {
+    .sign_in button a {
         font-size: 16px;
         padding: 12px;
     }
@@ -344,14 +344,14 @@
     /* ||order Css End|| */
 
     /* Payment Responsive Css Start */
-    #payment {
+    .payment {
         padding: 50px 0;
     }
-    #payment h2 {
+    .payment h2 {
         font-size: 25px;
         padding-bottom: 30px;
     }
-    #payment .payment_form {
+    .payment .payment_form {
         padding: 20px 15px;
         border-radius: 10px;
         gap: 10px;
@@ -466,7 +466,7 @@
     /* =================
     Contact Page CSS
     ====================*/
-    #contact {
+    .contact {
         padding: 40px 70px;
     }
 }
@@ -694,7 +694,7 @@
     /* =================
     Contact Page CSS
     ====================*/
-    #contact {
+    .contact {
         padding: 40px 50px;
     }
 }
@@ -989,22 +989,22 @@
     /* =================
     Contact Page CSS
     ====================*/
-    #contact {
+    .contact {
         padding: 40px 10px;
         text-align: center;
     }
-    #contact iframe {
+    .contact iframe {
         height: 250px;
     }
-    #contact h2 {
+    .contact h2 {
         font-size: 25px;
         padding-bottom: 10px;
     }
-    #contact p {
+    .contact p {
         font-size: 14px;
         padding-bottom: 28px;
     }
-    #contact .contact-sec {
+    .contact .contact-sec {
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
@@ -1419,10 +1419,10 @@
     /* =================
     FAQ Page CSS
     ==================== */
-    #faq {
+    .faq {
         padding: 50px 10px;
     }
-    #faq .faq-container {
+    .faq .faq-container {
         grid-template-columns: 1fr;
     }
     /* =================
@@ -1532,22 +1532,22 @@
     /* =================
     Contact Page CSS
     ====================*/
-    #contact {
+    .contact {
         padding: 40px 10px;
         text-align: center;
     }
-    #contact iframe {
+    .contact iframe {
         height: 250px;
     }
-    #contact h2 {
+    .contact h2 {
         font-size: 25px;
         padding-bottom: 10px;
     }
-    #contact p {
+    .contact p {
         font-size: 14px;
         padding-bottom: 28px;
     }
-    #contact .contact-sec {
+    .contact .contact-sec {
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
