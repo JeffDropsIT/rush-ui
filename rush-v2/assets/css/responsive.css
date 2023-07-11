@@ -172,7 +172,7 @@
 
     /* Sign in Responsive Css Start */
     .sign_in,
-    #register {
+    .register {
         padding: 50px 0;
     }
     .sign_in .sing_in_container {
@@ -216,7 +216,7 @@
         font-size: 18px;
     }
     /* Profile Responsive Css Start */
-    #profile,
+    .profile,
     .wallet {
         padding-bottom: 50px;
     }
@@ -397,40 +397,40 @@
         padding: 0 40px;
     }
     /* #banner_head Responsive Css Start */
-    #banner_head {
+    .banner_head {
         padding-bottom: 120px;
     }
-    #banner .banner-text h1 {
+    .banner .banner-text h1 {
         font-size: 48px;
     }
     /* ||#banner_head Responsive Css End|| */
 
     /* Qoute Responsive Css Start */
-    #qoute .qoute-btn {
+    .qoute .qoute-btn {
         display: flex;
         justify-content: center;
         padding-bottom: 72px;
         gap: 20px;
     }
-    #qoute .btn-1 {
+    .qoute .btn-1 {
         width: 501px;
     }
-    #qoute .btn-2 {
+    .qoute .btn-2 {
         width: 687px;
     }
     /* ||Qoute Responsive Css End|| */
 
     /* Package Responsive Css Start */
-    #package .heading h4 {
+    .package .heading h4 {
         padding-bottom: 180px;
     }
-    #package .package-item .package-overlay {
+    .package .package-item .package-overlay {
         width: 241px;
     }
     /* ||Package Responsive Css End|| */
 
     /* Description Responsive Css Start */
-    #description {
+    .description {
         padding: 112px 200px;
         font-size: 42px;
     }
@@ -449,14 +449,14 @@
     /* ||Why Choose Responsive Css End|| */
 
     /*  Feedback Responsive Css Start */
-    #feedback .feedback-item .samiclone img {
+    .feedback .feedback-item .samiclone img {
         height: 50px;
     }
-    #feedback .feedback-item h5 {
+    .feedback .feedback-item h5 {
         font-size: 30px;
         padding: 25px 0;
     }
-    #feedback .feedback-item p {
+    .feedback .feedback-item p {
         padding-top: 25px;
         font-size: 22px;
         line-height: 42px;
@@ -476,23 +476,23 @@
         padding: 0 40px;
     }
     /* #banner_head Responsive Css Start */
-    #banner_head {
+    .banner_head {
         padding-bottom: 100px;
     }
-    #banner {
+    .banner {
         padding-top: 80px;
     }
-    #banner .banner-text {
+    .banner .banner-text {
         width: 50%;
     }
-    #banner .banner-img {
+    .banner .banner-img {
         width: 50%;
     }
-    #banner .banner-text h1 {
+    .banner .banner-text h1 {
         font-size: 35px;
         line-height: 58px;
     }
-    #banner .banner-text p {
+    .banner .banner-text p {
         font-size: 20px;
         line-height: 28px;
         margin-top: 38px;
@@ -501,24 +501,24 @@
     /* ||#banner_head Responsive Css End|| */
 
     /* Our Partners Responsive Css Start */
-    #our-partners h2 {
+    .our-partnersh2 {
         font-size: 48px;
     }
     /* ||Our Partners Responsive Css End|| */
 
     /* Qoute Responsive Css Start */
-    #qoute .qoute-btn {
+    .qoute .qoute-btn {
         display: flex;
         justify-content: center;
         padding-bottom: 72px;
         gap: 20px;
     }
-    #qoute .btn-1 {
+    .qoute .btn-1 {
         width: 501px;
         font-size: 25px;
         padding: 22px 0;
     }
-    #qoute .btn-2 {
+    .qoute .btn-2 {
         width: 687px;
         font-size: 25px;
         padding: 22px 0;
@@ -526,34 +526,34 @@
     /* ||Qoute Responsive Css End|| */
 
     /* Package Responsive Css Start */
-    #package {
+    .package {
         padding-bottom: 50px;
     }
-    #package .heading h4 {
+    .package .heading h4 {
         padding-bottom: 150px;
         font-size: 35px;
     }
-    #package .package-item .package-overlay {
+    .package .package-item .package-overlay {
         width: 241px;
     }
     /* ||Package Responsive Css End|| */
 
     /* Description Responsive Css Start */
-    #description {
+    .description {
         padding: 90px 150px;
         font-size: 30px;
     }
     /* ||Description Responsive Css End|| */
 
     /* Why Choose Responsive Css Start */
-    #choose .heading {
+    .choose .heading {
         padding-bottom: 85px;
     }
-    #choose .heading h4 {
+    .choose .heading h4 {
         font-size: 48px;
         padding-bottom: 30px;
     }
-    #choose .heading p {
+    .choose .heading p {
         font-size: 22px;
         line-height: 34px;
     }
@@ -570,7 +570,7 @@
     /* ||Why Choose Responsive Css End|| */
 
     /* Subscriptions Responsive Css Start */
-    #sub {
+    .sub {
         padding: 100px;
     }
     .sub-heading h4 {
@@ -581,31 +581,31 @@
     /* ||Subscriptions Responsive Css End|| */
 
     /*  Feedback Responsive Css Start */
-    #feedback {
+    .feedback {
         padding-bottom: 90px;
     }
-    #feedback .heading {
+    .feedback .heading {
         padding: 90px 0;
     }
-    #feedback .heading h4 {
+    .feedback .heading h4 {
         font-size: 48px;
         padding-bottom: 35px;
     }
-    #feedback .heading p {
+    .feedback .heading p {
         font-size: 22px;
         line-height: 30px;
     }
-    #feedback .feedback-item .samiclone {
+    .feedback .feedback-item .samiclone {
         right: 30px;
     }
-    #feedback .feedback-item .samiclone img {
+    .feedback .feedback-item .samiclone img {
         height: 40px;
     }
-    #feedback .feedback-item h5 {
+    .feedback .feedback-item h5 {
         font-size: 25px;
         padding: 20px 0;
     }
-    #feedback .feedback-item p {
+    .feedback .feedback-item p {
         font-size: 20px;
         line-height: 33px;
         padding-top: 30px;
@@ -613,17 +613,17 @@
     /* || Feedback Responsive Css End|| */
 
     /* Video Responsive Css Start */
-    #video {
+    .video {
         padding: 90px 0 75px 0;
     }
-    #video .heading {
+    .video .heading {
         padding-bottom: 90px;
     }
-    #video .heading h4 {
+    .video .heading h4 {
         font-size: 48px;
         padding-bottom: 35px;
     }
-    #video .heading p {
+    .video .heading p {
         font-size: 22px;
         line-height: 30px;
     }
@@ -641,20 +641,20 @@
     .service-banner p {
         font-size: 35px;
     }
-    #service-branding .brand-content h5 {
+    .service-branding.brand-content h5 {
         font-size: 20px;
     }
-    #service-branding .service-trak img {
+    .service-branding.service-trak img {
         height: 200px;
     }
-    #service-branding .brand-content img {
+    .service-branding.brand-content img {
         padding: 30px 0;
         width: 50%;
     }
-    #parcel-form {
+    .parcel-form {
         max-width: 1020px;
     }
-    #parcel-form .form-heading a {
+    .parcel-form .form-heading a {
         font-size: 24px;
     }
     .address-form label {
@@ -664,7 +664,7 @@
         padding: 20px 90px;
         font-size: 22px;
     }
-    #parcel-form .add-btn {
+    .parcel-form .add-btn {
         margin: 20px 0;
         margin-left: 50px;
         padding: 20px 40px;
@@ -672,21 +672,21 @@
     /* =================
     News Page CSS
     ==================== */
-    #news .news-img img {
+    .news .news-img img {
         width: 380px;
     }
-    #news .news-item .news-heading {
+    .news .news-item .news-heading {
         flex-wrap: wrap;
         gap: 10px;
     }
-    #news .news-item .news-heading h4,
-    #news .news-item .news-heading p {
+    .news .news-item .news-heading h4,
+    .news .news-item .news-heading p {
         font-size: 16px;
     }
-    #news .news-item .news-heading p {
+    .news .news-item .news-heading p {
         padding-right: 0px;
     }
-    #news .news-item .news-text p {
+    .news .news-item .news-text p {
         font-size: 15px;
         line-height: 24px;
         padding: 10px 0;
@@ -704,22 +704,22 @@
         padding: 0 20px;
     }
     /* #banner_head Responsive Css Start */
-    #banner_head {
+    .banner_head {
         padding-bottom: 80px;
     }
-    #banner {
+    .banner {
         padding-top: 60px;
         flex-direction: column-reverse;
     }
-    #banner .banner-text {
+    .banner .banner-text {
         width: 100%;
         text-align: center;
     }
-    #banner .banner-text h1 {
+    .banner .banner-text h1 {
         font-size: 35px;
         line-height: 58px;
     }
-    #banner .banner-text p {
+    .banner .banner-text p {
         font-size: 20px;
         line-height: 28px;
         margin-top: 38px;
@@ -728,25 +728,25 @@
     /* ||#banner_head Responsive Css End|| */
 
     /* Our Partners Responsive Css Start */
-    #our-partners {
+    .our-partners{
         padding: 90px 0;
     }
-    #our-partners h2 {
+    .our-partnersh2 {
         font-size: 48px;
     }
     /* ||Our Partners Responsive Css End|| */
 
     /* Qoute Responsive Css Start */
-    #qoute .qoute-btn {
+    .qoute .qoute-btn {
         padding-bottom: 62px;
         gap: 20px;
     }
-    #qoute .btn-1 {
+    .qoute .btn-1 {
         max-width: 501px;
         font-size: 25px;
         padding: 22px 0;
     }
-    #qoute .btn-2 {
+    .qoute .btn-2 {
         max-width: 687px;
         font-size: 25px;
         padding: 22px 0;
@@ -754,34 +754,34 @@
     /* ||Qoute Responsive Css End|| */
 
     /* Package Responsive Css Start */
-    #package {
+    .package {
         padding-bottom: 50px;
     }
-    #package .heading h4 {
+    .package .heading h4 {
         padding-bottom: 70px;
         font-size: 24px;
     }
-    #package .package-item .package-overlay {
+    .package .package-item .package-overlay {
         width: 231px;
     }
     /* ||Package Responsive Css End|| */
 
     /* Description Responsive Css Start */
-    #description {
+    .description {
         padding: 70px 110px;
         font-size: 24px;
     }
     /* ||Description Responsive Css End|| */
 
     /* Why Choose Responsive Css Start */
-    #choose .heading {
+    .choose .heading {
         padding-bottom: 85px;
     }
-    #choose .heading h4 {
+    .choose .heading h4 {
         font-size: 48px;
         padding-bottom: 30px;
     }
-    #choose .heading p {
+    .choose .heading p {
         font-size: 22px;
         line-height: 34px;
     }
@@ -803,7 +803,7 @@
     /* ||Why Choose Responsive Css End|| */
 
     /* Subscriptions Responsive Css Start */
-    #sub {
+    .sub {
         padding: 100px;
     }
     .sub-heading h4 {
@@ -814,38 +814,38 @@
     /* ||Subscriptions Responsive Css End|| */
 
     /*  Feedback Responsive Css Start */
-    #feedback {
+    .feedback {
         padding-bottom: 90px;
     }
-    #feedback .heading {
+    .feedback .heading {
         padding: 90px 0;
     }
-    #feedback .heading h4 {
+    .feedback .heading h4 {
         font-size: 48px;
         padding-bottom: 35px;
     }
-    #feedback .heading p {
+    .feedback .heading p {
         font-size: 22px;
         line-height: 30px;
     }
-    #feedback .show-feedback {
+    .feedback .show-feedback {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
-    #feedback .feedback-item .feed-text {
+    .feedback .feedback-item .feed-text {
         padding: 30px;
     }
-    #feedback .feedback-item .samiclone {
+    .feedback .feedback-item .samiclone {
         right: 30px;
     }
-    #feedback .feedback-item .samiclone img {
+    .feedback .feedback-item .samiclone img {
         height: 40px;
     }
-    #feedback .feedback-item h5 {
+    .feedback .feedback-item h5 {
         font-size: 25px;
         padding: 20px 0;
     }
-    #feedback .feedback-item p {
+    .feedback .feedback-item p {
         font-size: 20px;
         line-height: 33px;
         padding-top: 20px;
@@ -853,17 +853,17 @@
     /* || Feedback Responsive Css End|| */
 
     /* Video Responsive Css Start */
-    #video {
+    .video {
         padding: 90px 0 75px 0;
     }
-    #video .heading {
+    .video .heading {
         padding-bottom: 90px;
     }
-    #video .heading h4 {
+    .video .heading h4 {
         font-size: 48px;
         padding-bottom: 35px;
     }
-    #video .heading p {
+    .video .heading p {
         font-size: 22px;
         line-height: 30px;
     }
@@ -889,26 +889,26 @@
     .service .banner-img img {
         width: 60%;
     }
-    #service-branding .service-trak {
+    .service-branding.service-trak {
         display: none;
     }
-    #service-branding .brand-content h5 {
+    .service-branding.brand-content h5 {
         font-size: 18px;
     }
-    #service-branding .brand-content img {
+    .service-branding.brand-content img {
         width: 100%;
     }
-    #parcel-form .form-heading a {
+    .parcel-form .form-heading a {
         font-size: 20px;
     }
-    #parcel-form .address-form {
+    .parcel-form .address-form {
         padding: 20px 20px;
         gap: 15px;
     }
     .address-form label {
         font-size: 18px;
     }
-    #parcel-form .address-input {
+    .parcel-form .address-input {
         gap: 15px;
     }
     .placing .data {
@@ -923,13 +923,13 @@
         padding: 0 20px;
         padding-top: 40px;
     }
-    #parcel-form .add-btn {
+    .parcel-form .add-btn {
         margin: 20px 0;
         margin-left: 20px;
         padding: 15px 35px;
         font-size: 18px;
     }
-    #parcel-form .text-aria {
+    .parcel-form .text-aria {
         padding: 0 20px;
     }
     .radio-btn {
@@ -941,49 +941,49 @@
     /* =================
     News Page CSS
     ==================== */
-    #news {
+    .news {
         padding: 0px 40px;
         padding-bottom: 40px;
     }
-    #news .news-item {
+    .news .news-item {
         flex-direction: column;
     }
-    #news .news-img img {
+    .news .news-img img {
         width: 100%;
     }
-    #news .news-item .news-heading {
+    .news .news-item .news-heading {
         flex-wrap: wrap;
         gap: 10px;
     }
-    #news .news-item .news-heading h4,
-    #news .news-item .news-heading p {
+    .news .news-item .news-heading h4,
+    .news .news-item .news-heading p {
         font-size: 16px;
     }
-    #news .news-item .news-heading p {
+    .news .news-item .news-heading p {
         padding-right: 0px;
     }
-    #news .news-item .news-text p {
+    .news .news-item .news-text p {
         font-size: 15px;
         line-height: 24px;
         padding: 10px 0;
     }
-    #news .news-item .news-modal {
+    .news .news-item .news-modal {
         padding: 20px;
     }
-    #news .news-item .news-modal .modal-head h5 {
+    .news .news-item .news-modal .modal-head h5 {
         font-size: 17px;
     }
     /* =================
     E-Commerce Page CSS
     ====================*/
-    #e-commerce-q .first-sec {
+    .e-commerce-q .first-sec {
         flex-direction: column;
     }
-    #api .api-container {
+    .api .api-container {
         grid-template-columns: 1fr;
         gap: 30px;
     }
-    #api .api-options {
+    .api .api-options {
         gap: 20px;
     }
     /* =================
@@ -1021,54 +1021,54 @@
         padding: 0 15px;
     }
     /* #banner_head Responsive Css Start */
-    #banner_head {
+    .banner_head {
         height: fit-content;
         padding-bottom: 30px;
     }
-    #banner {
+    .banner {
         padding-top: 30px;
         flex-direction: column-reverse;
     }
-    #banner .banner-text {
+    .banner .banner-text {
         width: 100%;
         text-align: center;
     }
-    #banner .banner-text h1 {
+    .banner .banner-text h1 {
         font-size: 25px;
         line-height: 38px;
     }
-    #banner .banner-text p {
+    .banner .banner-text p {
         font-size: 16px;
         line-height: 28px;
         margin-top: 20px;
         margin-bottom: 34px;
     }
-    #banner .banner-text .btn {
+    .banner .banner-text .btn {
         padding: 10px 15px;
         border-radius: 5px;
         font-size: 18px;
     }
     /* Our Partners Responsive Css Start */
-    #our-partners {
+    .our-partners{
         padding: 50px 0;
     }
-    #our-partners h2 {
+    .our-partnersh2 {
         font-size: 35px;
     }
-    #our-partners .partners {
+    .our-partners.partners {
         padding-top: 50px;
     }
     /* ||Our Partners Responsive Css End|| */
 
     /* Qoute Responsive Css Start */
-    #qoute .qoute-btn {
+    .qoute .qoute-btn {
         display: none;
     }
-    #qoute .qoute-btn-mob {
+    .qoute .qoute-btn-mob {
         display: flex;
         padding-bottom: 50px;
     }
-    #qoute .qoute-btn-mob .btn-mob {
+    .qoute .qoute-btn-mob .btn-mob {
         width: 100%;
         color: var(--focus-color);
         text-align: center;
@@ -1078,42 +1078,42 @@
         font-size: 11px;
         transition: var(--first-transition);
     }
-    #qoute .qoute-btn-mob .btn-mob:hover {
+    .qoute .qoute-btn-mob .btn-mob:hover {
         color: var(--prime-color);
         background: var(--focus-color);
     }
-    #qoute .qoute-btn-mob .btn-mob.pp {
+    .qoute .qoute-btn-mob .btn-mob.pp {
         border-right: 2px solid var(--focus-color);
     }
     /* ||Qoute Responsive Css End|| */
 
     /* Package Responsive Css Start */
-    #package {
+    .package {
         padding-bottom: 50px;
     }
-    #package .heading h4 {
+    .package .heading h4 {
         padding-bottom: 70px;
         font-size: 24px;
         line-height: 42px;
     }
-    #package .package-item {
+    .package .package-item {
         padding: 28px 8px;
     }
-    #package .package-item .item-containt {
+    .package .package-item .item-containt {
         width: 100%;
         height: 380px;
     }
-    #package .package-item .package-overlay {
+    .package .package-item .package-overlay {
         width: 170px;
         height: 90px;
     }
-    #package .package-item .package-overlay img {
+    .package .package-item .package-overlay img {
         height: 35px;
     }
-    #package .package-item .package-overlay h6 {
+    .package .package-item .package-overlay h6 {
         font-size: 20px;
     }
-    #package .package-item .package-text {
+    .package .package-item .package-text {
         padding: 90px 0 0 32px;
     }
     .package-text h5 {
@@ -1127,27 +1127,27 @@
     /* ||Package Responsive Css End|| */
 
     /* Description Responsive Css Start */
-    #description {
+    .description {
         padding: 50px 10px;
         font-size: 18px;
     }
-    #description .dis-pt {
+    .description .dis-pt {
         padding-top: 25px;
     }
     /* ||Description Responsive Css End|| */
 
     /* Why Choose Responsive Css Start */
-    #choose {
+    .choose {
         padding: 50px 0;
     }
-    #choose .heading {
+    .choose .heading {
         padding-bottom: 50px;
     }
-    #choose .heading h4 {
+    .choose .heading h4 {
         font-size: 35px;
         padding-bottom: 20px;
     }
-    #choose .heading p {
+    .choose .heading p {
         font-size: 16px;
         line-height: 28px;
     }
@@ -1176,7 +1176,7 @@
     /* ||Why Choose Responsive Css End|| */
 
     /* Subscriptions Responsive Css Start */
-    #sub {
+    .sub {
         padding: 50px 15px;
     }
     .sub-heading h4 {
@@ -1196,59 +1196,59 @@
     /* ||Subscriptions Responsive Css End|| */
 
     /*  Feedback Responsive Css Start */
-    #feedback {
+    .feedback {
         padding-bottom: 50px;
     }
-    #feedback .heading {
+    .feedback .heading {
         padding: 50px 0;
     }
-    #feedback .heading h4 {
+    .feedback .heading h4 {
         font-size: 35px;
         padding-bottom: 20px;
     }
-    #feedback .heading p {
+    .feedback .heading p {
         font-size: 16px;
         line-height: 28px;
     }
-    #feedback .show-feedback {
+    .feedback .show-feedback {
         gap: 50px;
         grid-template-columns: 1fr;
     }
-    #feedback .feedback-item .feedback-img img {
+    .feedback .feedback-item .feedback-img img {
         height: 120px;
     }
-    #feedback .feedback-item .samiclone {
+    .feedback .feedback-item .samiclone {
         right: 30px;
     }
-    #feedback .feedback-item .samiclone img {
+    .feedback .feedback-item .samiclone img {
         height: 40px;
     }
-    #feedback .feedback-item h5 {
+    .feedback .feedback-item h5 {
         font-size: 22px;
         padding: 18px 0;
     }
-    #feedback .feedback-item p {
+    .feedback .feedback-item p {
         font-size: 18px;
         line-height: 30px;
         padding-top: 18px;
     }
-    #feedback .feedback-item .star-icone i {
+    .feedback .feedback-item .star-icone i {
         font-size: 25px;
     }
     /* || Feedback Responsive Css End|| */
 
     /* Video Responsive Css Start */
-    #video {
+    .video {
         padding: 50px 10px;
     }
-    #video .heading {
+    .video .heading {
         padding-bottom: 30px;
     }
-    #video .heading h4 {
+    .video .heading h4 {
         font-size: 35px;
         padding-bottom: 20px;
     }
-    #video .heading p {
+    .video .heading p {
         font-size: 16px;
         line-height: 28px;
     }
@@ -1257,31 +1257,31 @@
     /* ===================
     Login Page
     =================== */
-    #login-page form {
+    .login-pageform {
         width: 100%;
     }
-    #login-page .form-logo img {
+    .login-page.form-logo img {
         width: 110px;
     }
-    #login-page .heading {
+    .login-page.heading {
         padding: 30px 0;
     }
-    #login-page .heading h2,
-    #login-page .heading p {
+    .login-page.heading h2,
+    .login-page.heading p {
         font-size: 15px;
     }
-    #login-page input {
+    .login-pageinput {
         display: block;
         width: 295px;
     }
-    #login-page label {
+    .login-pagelabel {
         font-size: 14px;
     }
-    #login-page .login-btn p {
+    .login-page.login-btn p {
         padding: 28px 0;
         font-size: 14px;
     }
-    #login-page .login-btn .btn {
+    .login-page.login-btn .btn {
         padding: 12px 42px;
         font-size: 15px;
     }
@@ -1305,37 +1305,37 @@
     .service .banner-img img {
         width: 60%;
     }
-    #service-branding .service-trak {
+    .service-branding.service-trak {
         display: none;
     }
-    #service-branding .brand-content h5 {
+    .service-branding.brand-content h5 {
         font-size: 18px;
     }
-    #service-branding .brand-content img {
+    .service-branding.brand-content img {
         width: 100%;
     }
 
-    #parcel-form .form-heading {
+    .parcel-form .form-heading {
         background: #fff;
         border-top: 4px solid var(--focus-color);
         border-bottom: 4px solid var(--focus-color);
         padding: 0;
     }
-    #parcel-form .form-heading a {
+    .parcel-form .form-heading a {
         font-size: 10px;
         padding: 10px 0;
         color: var(--prime-color);
         background-color: var(--focus-color);
         transition: var(--first-transition);
     }
-    #parcel-form a.dipe {
+    .parcel-form a.dipe {
         color: var(--focus-color);
         background-color: transparent;
     }
-    #parcel-form .form-heading .ab {
+    .parcel-form .form-heading .ab {
         border-right: 2px solid var(--focus-color);
     }
-    #parcel-form .address-form {
+    .parcel-form .address-form {
         padding: 20px 10px;
         grid-template-columns: 1fr;
         gap: 15px;
@@ -1343,7 +1343,7 @@
     .address-form label {
         font-size: 14px;
     }
-    #parcel-form .address-input {
+    .parcel-form .address-input {
         gap: 15px;
     }
     .placing .data {
@@ -1368,16 +1368,16 @@
         padding: 10px 1px !important;
     }
 
-    #parcel-form .add-btn {
+    .parcel-form .add-btn {
         margin: 15px 0;
         margin-left: 10px;
         padding: 10px 30px;
         font-size: 16px;
     }
-    #parcel-form .text-aria {
+    .parcel-form .text-aria {
         padding: 0 10px;
     }
-    #parcel-form .text-aria label {
+    .parcel-form .text-aria label {
         font-size: 15px;
     }
     .radio-btn {
@@ -1387,7 +1387,7 @@
         display: none;
     }
 
-    #register {
+    .register {
         padding: 50px 20px;
     }
     .info-form .first-fild {
@@ -1396,7 +1396,7 @@
     .fild-expand {
         grid-column: initial;
     }
-    #register p {
+    .register p {
         font-size: 18px;
         background-color: rgba(148, 157, 175, 20%);
         padding: 15px 20px;
@@ -1428,57 +1428,57 @@
     /* =================
     News Page CSS
     ==================== */
-    #news {
+    .news {
         padding: 40px 10px;
     }
-    #news .news-item {
+    .news .news-item {
         flex-direction: column;
     }
-    #news .news-img img {
+    .news .news-img img {
         width: 100%;
     }
-    #news .news-item .news-heading {
+    .news .news-item .news-heading {
         flex-wrap: wrap;
         gap: 8px;
     }
-    #news .news-item .news-heading h4,
-    #news .news-item .news-heading p {
+    .news .news-item .news-heading h4,
+    .news .news-item .news-heading p {
         font-size: 15px;
     }
-    #news .news-item .news-heading p {
+    .news .news-item .news-heading p {
         padding-right: 0px;
     }
-    #news .news-item .news-text button {
+    .news .news-item .news-text button {
         font-size: 15px;
     }
-    #news .news-item .news-text p {
+    .news .news-item .news-text p {
         font-size: 15px;
         line-height: 24px;
         padding: 10px 0;
     }
-    #news .news-item .news-modal {
+    .news .news-item .news-modal {
         width: 90%;
         padding: 10px;
     }
-    #news .news-item .news-modal .modal-head {
+    .news .news-item .news-modal .modal-head {
         padding-bottom: 10px;
     }
-    #news .news-item .news-modal .modal-head h5 {
+    .news .news-item .news-modal .modal-head h5 {
         font-size: 14px;
     }
-    #news .news-item .news-modal img {
+    .news .news-item .news-modal img {
         border-radius: 8px;
         margin: 12px 0;
     }
-    #news .news-item .news-modal .modal-text .modal-time {
+    .news .news-item .news-modal .modal-text .modal-time {
         font-size: 14px;
         padding-bottom: 7px;
     }
-    #news .news-item .news-modal .modal-text p {
+    .news .news-item .news-modal .modal-text p {
         font-size: 14px;
         line-height: 25px;
     }
-    #news .news-item .news-modal .modal-text p span {
+    .news .news-item .news-modal .modal-text p span {
         font-size: 18px;
     }
     /* =================
@@ -1495,36 +1495,36 @@
     .e-commerce-banner p {
         font-size: 15px;
     }
-    #e-commerce-q .first-sec {
+    .e-commerce-q .first-sec {
         flex-direction: column;
     }
-    #e-commerce-q h4 {
+    .e-commerce-q h4 {
         font-size: 25px;
         line-height: 40px;
         padding-bottom: 10px;
     }
-    #e-commerce-q p {
+    .e-commerce-q p {
         font-weight: 200;
         line-height: 28px;
     }
-    #api .api-container {
+    .api .api-container {
         grid-template-columns: 1fr;
         gap: 30px;
     }
-    #api .api-options {
+    .api .api-options {
         grid-template-columns: 1fr;
         gap: 20px;
     }
-    #api .api-options .opt-item h3 {
+    .api .api-options .opt-item h3 {
         font-size: 25px;
         line-height: 48px;
     }
-    #api .api-options .opt-item p {
+    .api .api-options .opt-item p {
         font-size: 18px;
         font-weight: 300;
         line-height: 28px;
     }
-    #api .api-item p {
+    .api .api-item p {
         font-size: 16px;
         font-weight: 300;
         line-height: 32px;
